@@ -17,6 +17,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-1);
+  background-image: url("place.jpg");
 }
 
 header {
@@ -131,5 +132,27 @@ header {
         transform: scale(1.08);
       }
     }
+  }
+}
+
+div {
+
+  .FocoHome {
+    background-image: url("place.jpg");
+    background-color: #cccccc;
+    left: 50px;
+    height: 500px;
+    width: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .FocoHome {
+    position: absolute;
+    top: 20px;
+    padding: 20px;
+    background-color: var(--color-3);
   }
 }
