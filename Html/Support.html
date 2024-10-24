@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Moletons 🧥</title>
+
+    <link rel="stylesheet" href="stylesSUP.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="active"><a href="Home.html">Inicio</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Suporte.html">Suporte</a></li>
+            <li class="login-button"><a href="Login.html">Entrar</a></li>
+        </ul>
+
+        <div class="searchbar-container">
+            <input id="search-input" type="text" placeholder="Pesquise..." />
+            <button id="search-button" type="button">
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="BackGround">
+        <div class="FocoHome">
+        </div>
+    </div>
+    <script>
+        const searchInput = document.getElementById("search-input");
+        const searchButton = document.getElementById("search-button");
+
+        searchButton.addEventListener("click", function (e) {
+            console.log(searchInput.value);
+        })
+
+    </script>
+</body>
+</html>
