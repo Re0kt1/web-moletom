@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    
     <header>
         <ul>
             <li class="active"><a href="Home.html">Inicio</a></li>
@@ -18,28 +19,122 @@
             <li><a href="Sobre.html">Sobre</a></li>
             <li class="login-button"><a href="Login.html">Entrar</a></li>
         </ul>
-
-        <div class="searchbar-container">
-            <input id="search-input" type="text" placeholder="Pesquise..." />
-            <button id="search-button" type="button">
-                <i class="fa fa-search"></i>
-            </button>
-        </div>
     </header>
 
-    <div>
-        <img src="place.jpg" width="70%" height="70%">
+    <div class="FocoHome">
+        <div class="produtos">
+            <div class="PesquisaP">
+                <header id="pesq">
+                    <ul id="filtros">
+                        <label>Filtrar por:</label>
+                        <select>
+                            <option value="/" selected disabled hidden>Filtros</option>
+                            <option value="/">Marca1</option>
+                            <option value="/">Cor Principal</option>
+                        </select>
+                    </ul>
+                    <div class="searchbar-container">
+                        <input id="search-input" type="text" onkeyup="bp()" placeholder="Pesquise..." />
+                        <button id="search-button" type="button">
+                            <i class="fa fa-search" ></i>
+                        </button>
+                    </div>
+                </header>
+            </div>
+
+            <div id="imgs">
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomVerde.webp" alt="Moletom Verde">
+                        <h4>Moletom Verde</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomSCapuz.webp" alt="Moletom Comum">
+                        <h4>Moletom Preto</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomBranco.webp" alt="Moletom Branco">
+                        <h4>Moletom Branco</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomVerde.webp" alt="Moletom Verde">
+                        <h4>Moletom Verde</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomSCapuz.webp" alt="Moletom Comum">
+                        <h4>Moletom Preto</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomBranco.webp" alt="Moletom Branco">
+                        <h4>Moletom Branco</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomVerde.webp" alt="Moletom Verde">
+                        <h4>Moletom Verde</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomSCapuz.webp" alt="Moletom Comum">
+                        <h4>Moletom Preto</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomBranco.webp" alt="Moletom Branco">
+                        <h4>Moletom Branco</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomVerde.webp" alt="Moletom Verde">
+                        <h4>Moletom Verde</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomSCapuz.webp" alt="Moletom Comum">
+                        <h4>Moletom Preto</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+                <div class="exemploMoletons">
+                    <div class="conteudo">
+                        <img class="moletom" src="moletomBranco.webp" alt="Moletom Branco">
+                        <h4>Moletom Branco</h4>
+                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p><a href="#">awa</a></p>
+        </footer>
     </div>
 
-    <script>
-        const searchInput = document.getElementById("search-input");
-        const searchButton = document.getElementById("search-button");
-
-        searchButton.addEventListener("click", function (e) {
-            console.log(searchInput.value);
-        })
-
+</body>   
+    <script src="All.js">
     </script>
-</body>
-
 </html>

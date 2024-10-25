@@ -24,7 +24,7 @@ body {
   background-position-y: 5%;
   background-repeat: no-repeat;
   background-position: fixed;
-
+  overflow-x: hidden;
 }
 
 header {
@@ -145,17 +145,86 @@ header {
 .FocoHome {
   position: absolute;
   left: 0%;
-  top: 50%;
-  width: 100%;
-  height: 100%;
-  padding: 0px;
+  top: 40%;
+  width: auto;
+  height: auto;
   background-color: var(--color-3);
   border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+
   #lorem {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     position: relative;
-    top: 5%;
-    left: 5%;
+    margin-top: 25px;
+    width: 100%;
+    color: var(--color-2);
+    text-align: center;
+  }
+  #linguiça {
+    color: var(--color-2);
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+  }
+
+  .imgs {
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
     width: 90%;
-    color: white;
+    height: auto;
+    margin-top: 5%;
+  }
+  
+  .exemploMoletons {
+    background-color: var(--color-4);
+    padding: 8px;
+    float: left;
+    width: 33.33%;
+    border-radius: 10px;
+  }
+
+  .conteudo {
+    background-color: var(--color-2);
+    padding: 16px;
+    border-radius: 10px;
+
+    h4 {
+      text-align: center;
+      font-size: 90%;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    p {
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif;
+    }
+  }
+
+  .moletom {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  footer {
+    background-color: var(--color-1);
+    margin-top: 5%;
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-radius: 100px 100px 0 0;
+  
+    p{
+      color: var(--color-2);
+      text-align: center;
+      margin-top: 4%;
+      a{
+        text-decoration: none;
+        color: var(--color-2);
+      }
+    }
+
   }
 }
