@@ -17,7 +17,14 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: var(--color-1);
+  height: 100%;
+  width: 100%;
   background-image: url("place.jpg");
+  background-size: 100%;
+  background-position-y: 5%;
+  background-repeat: no-repeat;
+  background-position: fixed;
+
 }
 
 header {
@@ -135,24 +142,20 @@ header {
   }
 }
 
-div {
-
-  .FocoHome {
-    background-image: url("place.jpg");
-    background-color: #cccccc;
-    left: 50px;
-    height: 500px;
-    width: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.FocoHome {
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background-color: var(--color-3);
+  border-radius: 50px 50px 0 0;
+  #lorem {
     position: relative;
-  }
-
-  .FocoHome {
-    position: absolute;
-    top: 20px;
-    padding: 20px;
-    background-color: var(--color-3);
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    color: white;
   }
 }
