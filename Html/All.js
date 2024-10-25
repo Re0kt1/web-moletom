@@ -3,7 +3,6 @@ const searchButton = document.getElementById("search-button");
 //const text = searchInput.value;
 
 
-
 function bp() {
     //document.location.replace("Produtos.html");
     //searchInput.innerHTML = "awa";
@@ -16,11 +15,11 @@ function bp() {
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("h4")[0];
         console.log(a);
-        txtValue = a.innerText;
+        txtValue = a.textContent || a.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
-            li[i].parentNode.removeChild(li[i]);
+            li[i].style.display = "none";
         }
     }
 }
