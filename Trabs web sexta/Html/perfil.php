@@ -72,7 +72,9 @@ require_once '../Php/config.php';
             <button id="carrinho" type="button"><p>Continuar para o pagamento.</p></button>
         </div>
         <footer>
-            <p><a href="#">awa</a></p>
+        <p><a href="#">Footer.</a></p>
+        <p><a href="#">Teste.</a></p>
+        <p><a href="#">Sobre.</a></p>
         </footer>
     </div>
     <script src="../JS/All.js">

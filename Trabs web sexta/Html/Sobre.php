@@ -44,7 +44,7 @@ require_once '../Php/config.php';
                     <img class="ImgP" src="../Rsc/avatar.webp" alt="Symohn">
                     <div class="Descricao">
                         <h4>Symohn Judah</h4>
-                        <p>Lorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem IpsumLorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        <p>Aluno de ciências da computação. Atualmente no segundo semestre.</p>
                     </div>
                 </div>
             </div>
@@ -52,8 +52,8 @@ require_once '../Php/config.php';
                 <div class="conteudo">
                     <img class="ImgP" src="../Rsc/avatar.webp" alt="Renan">
                     <div class="Descricao">
-                        <h4>Symohn Judah</h4>
-                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        <h4>Lucas fagundes</h4>
+                        <p>Aluno de Análise e desenvolvimento de sistemas. Atualmente no primeiro período.</p>
                     </div>
                 </div>
             </div>
@@ -61,8 +61,8 @@ require_once '../Php/config.php';
                 <div class="conteudo">
                     <img class="ImgP" src="../Rsc/avatar.webp" alt="ImgP Branco">
                     <div class="Descricao">
-                        <h4>Symohn Judah</h4>
-                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        <h4>Renan silva</h4>
+                        <p>Aluno de Análise e desenvolvimento de sistemas. Atualmento no primeiro período.</p>
                     </div>
                 </div>
             </div>
@@ -70,8 +70,8 @@ require_once '../Php/config.php';
                 <div class="conteudo">
                     <img class="ImgP" src="../Rsc/avatar.webp" alt="ImgP Branco">
                     <div class="Descricao">
-                        <h4>Symohn Judah</h4>
-                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        <h4>Aguinaldo santos junior</h4>
+                        <p>Aluno de Análise e desenvolvimento de Sistemas. Atualmente no primeiro período.</p>
                     </div>
                 </div>
             </div>
@@ -79,15 +79,17 @@ require_once '../Php/config.php';
                 <div class="conteudo">
                     <img class="ImgP" src="../Rsc/avatar.webp" alt="ImgP Branco">
                     <div class="Descricao">
-                        <h4>Symohn Judah</h4>
-                        <p>Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
+                        <h4>Yagor carvalho</h4>
+                        <p>Aluno de Gestão em T.I. Atualmente no primero período.</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <footer>
-            <p><a href="#">awa</a></p>
+        <p><a href="#">Footer.</a></p>
+        <p><a href="#">Teste.</a></p>
+        <p><a href="#">Sobre.</a></p>
         </footer>
     </div>
     <script src="../JS/All.js">

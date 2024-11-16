@@ -51,8 +51,7 @@ require_once '../Php/config.php';
         </div>
     </div>
     <footer>
-        <p><a href="#">awa</a></p>
-        
+        <p><a href="#">Footer.</a></p>
     </footer>
     
     <script src="../JS/All.js">

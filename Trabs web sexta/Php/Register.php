@@ -19,9 +19,9 @@ if(!empty($_POST['user']) && !empty($_POST['pass'])) {
     
     $result=mysqli_query($conn, $sql);    
         if($result){    
-    echo "Account Successfully Created";    
+    header('location:../Html/Home.php');  
     } else {    
-    echo "Failure!";    
+    echo "Failure!";
     }    
     
     } else {    

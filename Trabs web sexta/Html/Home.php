@@ -35,28 +35,28 @@ require_once '../Php/config.php';
 
     <div class="slideshow-container">
 
-    <div class="mySlides fade">
-    <img src="../Rsc/dark.png" style="width:100%">
-    </div>
+        <div class="mySlides fade">
+        <img src="../Rsc/dark.png" style="width:100%">
+        </div>
 
-    <div class="mySlides fade">
-    <img src="../Rsc/snow.png" style="width:100%">
-    </div>
+        <div class="mySlides fade">
+        <img src="../Rsc/snow.png" style="width:100%">
+        </div>
 
-    <div class="mySlides fade">
-    <img src="../Rsc/water.png" style="width:100%">
-    </div>
+        <div class="mySlides fade">
+        <img src="../Rsc/water.png" style="width:100%">
+        </div>
 
-    </div>
-    <script src="../JS/All.js">
-    </script>
+        </div>
+        <script src="../JS/All.js">
+        </script>
     
     <div class="FocoHome">
         <h1 id="lorem">
            Os Melhores Moletons Do Mundo
         </h1>
         <h3 id ="linguiça">
-            Moleton Moleton Moleton Moleton Moleton Moleton Moleton Moleton 
+            Moleton de topos os tipos para toda a família.
         </h3>
 
         <div class="imgs">
@@ -84,10 +84,11 @@ require_once '../Php/config.php';
         </div>
 
         <footer>
-            <p><a href="#">awa</a></p>
+            <p><a href="#">Footer.</a></p>
+            <p><a href="#">Teste.</a></p>
+            <p><a href="#">Sobre.</a></p>
         </footer>
     </div>
-
     <?php 
     require "../Php/Home.php";
     ?>
